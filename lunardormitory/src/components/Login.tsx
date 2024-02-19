@@ -4,7 +4,7 @@ function Login() {
   return (
     <div className="flex" style={{backgroundColor:'#E9E6E1'}}>
       <div className="flex flex-col w-1/2 h-screen justify-center items-center">
-        <h1 className='text-base text-gray-500 mb-2'>เข้าสู่ระบบ</h1>
+        {/* <h1 className='text-base text-gray-500 mb-2'>เข้าสู่ระบบ</h1> */}
         <div className='flex flex-row'>
             <h1 className='text-xl font-semibold px-2' style={{color: '#2E4E73'}}>LUNAR</h1>
             <img src='https://cdn.discordapp.com/attachments/1205929906291089510/1209155580166410321/moon.png?ex=65e5e4e3&is=65d36fe3&hm=e0f900ef8c09349c2256c8d45e65a72d4b62de050f1322271cfbdce727c341c0&' alt='moon' width="30"></img>
@@ -25,7 +25,7 @@ function Login() {
             <input placeholder='รหัสผ่าน' className='rounded-xl border-gray-300 border-2 p-2 pl-10 placeholder-gray-500 w-full' />
         </div>
 
-        <button className='rounded-xl p-2 mt-3 mb-3 w-5/12 text-white' style={{backgroundColor:'#2E4E73'}}>เข้าสู่ระบบ</button>
+        <button className='rounded-xl p-2 mt-3 mb-3 w-5/12 text-white ' style={{backgroundColor:'#2E4E73'}}>เข้าสู่ระบบ</button>
 
         <div className="relative mb-3 w-5/12 flex items-center">
             <img className='absolute left-12' src='https://cdn.discordapp.com/attachments/1205929906291089510/1209158358968569866/google.png?ex=65e5e779&is=65d37279&hm=3dda04253b4beeb5af102e0041137f55e2dd5b99a1f3570f4de6d52b57478ead&' alt='google' width="20"></img>
