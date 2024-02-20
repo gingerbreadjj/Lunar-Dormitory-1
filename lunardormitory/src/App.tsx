@@ -11,8 +11,8 @@ import RegisDor from './components/RegisDor';
 function App() {
   return (
     <div className="App">
-      <RegisDor></RegisDor>
-      {/* <HomeLogin></HomeLogin> */}
+      {/* <RegisDor></RegisDor> */}
+      <HomeLogin></HomeLogin>
     </div>
   );
 }
