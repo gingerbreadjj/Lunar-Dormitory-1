@@ -47,7 +47,7 @@ function Regis() {
             <input placeholder='เบอร์โทร' className='rounded-xl border-gray-300 border-2 p-2 pl-10 placeholder-gray-500 w-full' />
         </div>
 
-        <button className='rounded-xl p-2 mt-3 mb-3 w-5/12 text-white' style={{backgroundColor:'#2E4E73'}}>เข้าสู่ระบบ</button>
+        <button className='rounded-xl p-2 mt-3 mb-3 w-5/12 text-white' style={{backgroundColor:'#2E4E73'}} >ลงทะเบียน</button>
         <button className='rounded-xl p-2 mb-3 w-5/12 text-white bg-gray-400'>ยกเลิก</button>
 
       </div>

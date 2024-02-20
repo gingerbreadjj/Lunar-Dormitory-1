@@ -4,11 +4,12 @@ import './App.css';
 import Login from './components/Login';
 import Home from './components/Home';
 import Regis from './components/Regis';
+import HomeLogin from './components/HomeLogin';
 
 function App() {
   return (
     <div className="App">
-      <Regis></Regis>
+      <HomeLogin></HomeLogin>
     </div>
   );
 }

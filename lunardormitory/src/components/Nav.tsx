@@ -8,7 +8,7 @@ function Nav() {
 
             <div className="flex flex-col">
                 <div className="flex flex-row">
-                    <h1 className="text-white text-xl tracking-wider">LUNAR</h1>
+                    <h1 className="text-white text-lg tracking-wider">LUNAR</h1>
                     <img
                         src="https://cdn.discordapp.com/attachments/1205929906291089510/1206851986201382912/moon.png?ex=65dd837f&is=65cb0e7f&hm=e863ab6145a32aed8b165bdbbc1e688e657bb3f8cfa80a8759dfb75fcd837160&"
                         alt="moon"
@@ -16,7 +16,7 @@ function Nav() {
                         className="mx-2"
                     ></img>
                 </div>
-                <h1 className="text-white text-xl tracking-wider">DORMITORY</h1>
+                <h1 className="text-white text-lg tracking-wider">DORMITORY</h1>
             </div>
 
             <ul className="flex flex-row gap-10 justify-center content-center items-center w-full">
