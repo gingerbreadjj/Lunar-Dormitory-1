@@ -1,8 +1,9 @@
 import React from "react";
+import { BrowserRouter, Link, Routes} from 'react-router-dom';
 
 function Nav() {
   return (
-    <div>
+    <BrowserRouter>
       <nav className="p-3" style={{ backgroundColor: "#2E4E73" }}>
         <div className=" flex flex-row">
 
@@ -18,7 +19,6 @@ function Nav() {
                 </div>
                 <h1 className="text-white text-lg tracking-wider">DORMITORY</h1>
             </div>
-
             <ul className="flex flex-row gap-10 justify-center content-center items-center w-full">
                 <li className="text-white text-base">หน้าแรก</li>
                 <li className="text-white text-base">ลงทะเบียนหอพัก</li>
@@ -32,7 +32,7 @@ function Nav() {
     
         </div>
       </nav>
-    </div>
+    </BrowserRouter>
   );
 }
 
