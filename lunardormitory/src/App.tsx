@@ -16,9 +16,9 @@ function App() {
     <div className="App">
       {/* <RegisDor></RegisDor> */}
       {/* <HomeLogin></HomeLogin> */}
-      <Info1></Info1>
+      {/* <Info1></Info1> */}
       {/* <NotiPayment></NotiPayment> */}
-      {/* <Infochange></Infochange> */}
+      <Infochange></Infochange>
     </div>
   );
 }
