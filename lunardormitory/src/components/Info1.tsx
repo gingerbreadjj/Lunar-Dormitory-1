@@ -4,16 +4,17 @@ import Nav from "./Nav";
 function Info1(){
     return (
     <div>
-        
-        <div className="container mx-auto p-6">
+      <Nav></Nav>
+      <div className='basis-4/6 text-3xl m-7'>รายละเอียดผู้เช่า</div>
+      <div className="container mx-auto p-6">
       <table className="min-w-full border border-gray-300">
         <thead>
           <tr>
             <th className="border-b px-4 py-2">เลขห้อง</th>
-            <th className="border-b px-4 py-2">Name1</th>
-            <th className="border-b px-4 py-2">Name2</th>
-            <th className="border-b px-4 py-2">Edit</th>
-            <th className="border-b px-4 py-2">Delete</th>
+            <th className="border-b px-4 py-2">ชื่อผู้เช่า1</th>
+            <th className="border-b px-4 py-2">ชื่อผู้เช่า2</th>
+            <th className="border-b px-4 py-2">แก้ไข</th>
+            <th className="border-b px-4 py-2">ลบ</th>
           </tr>
         </thead>
         <tbody>
@@ -21,7 +22,7 @@ function Info1(){
             { id: 1, num: 101, name1: 'Nick', name2: 'Jin' },
             { id: 2, num: 102, name1: 'Jin', name2: 'Nick' },
             { id: 2, num: 103, name1: 'Jin', name2: 'Nick' },
-            // Add more rows as needed
+
           ].map((room) => (
             <tr key={room.id}>
               <td className="border px-4 py-2">{room.num}</td>
@@ -38,7 +39,7 @@ function Info1(){
         </tbody>
       </table>
     </div>
-    </div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+    </div>
     )
 }
 
