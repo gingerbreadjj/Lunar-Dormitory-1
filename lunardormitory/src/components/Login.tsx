@@ -1,8 +1,9 @@
 import React from 'react'
 
 function Login() {
+
   return (
-    <div className="flex" style={{backgroundColor:'#E9E6E1'}}>
+    <div className="flex">
       <div className="flex flex-col w-1/2 h-screen justify-center items-center">
         {/* <h1 className='text-base text-gray-500 mb-2'>เข้าสู่ระบบ</h1> */}
         <div className='flex flex-row'>
@@ -11,18 +12,18 @@ function Login() {
         </div>
         <h1 className='text-xl font-semibold mb-5' style={{color: '#2E4E73'}}>DORMITORY</h1>
 
-        <div className="relative mb-3 w-5/12">
+        <div className="relative mb-5 w-5/12">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
             </svg>
-            <input placeholder='อีเมล' className='rounded-xl border-gray-300 border-2 p-2 pl-10 placeholder-gray-500 w-full' />
+            <input placeholder='อีเมล' className='rounded-xl border-gray-200 border-2 p-2 pl-10 placeholder-gray-500 w-full shadow-xl' />
         </div>
 
-        <div className="relative mb-3 w-5/12">
+        <div className="relative mb-5 w-5/12">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 absolute top-1/2 left-3 transform -translate-y-1/2 text-gray-400">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
             </svg>
-            <input placeholder='รหัสผ่าน' className='rounded-xl border-gray-300 border-2 p-2 pl-10 placeholder-gray-500 w-full' />
+            <input placeholder='รหัสผ่าน' className='rounded-xl border-gray-200 border-2 p-2 pl-10 placeholder-gray-500 w-full shadow-xl' />
         </div>
 
         <button className='rounded-xl p-2 mt-3 mb-3 w-5/12 text-white ' style={{backgroundColor:'#2E4E73'}}>เข้าสู่ระบบ</button>

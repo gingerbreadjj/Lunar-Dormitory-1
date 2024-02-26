@@ -13,7 +13,9 @@ function App() {
   return (
     <div className="App font-sans">
       {/* <RegisDor></RegisDor> */}
-      <NotiPayment></NotiPayment>
+      <Login></Login>
+      {/* <HomeLogin></HomeLogin> */}
+      {/* <Home></Home> */}
     </div>
   );
 }
