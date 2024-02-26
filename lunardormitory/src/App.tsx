@@ -9,7 +9,6 @@ import { Route, Routes } from "react-router-dom"
 import RegisDor from './components/RegisDor';
 import Info1 from './components/Info1';
 import Infochange from './components/Infochange';
-import NotiPayment from './components/bampage';
 
 function App() {
   return (
