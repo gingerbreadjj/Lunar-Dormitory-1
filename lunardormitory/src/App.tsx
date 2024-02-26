@@ -7,12 +7,13 @@ import Regis from './components/Regis';
 import HomeLogin from './components/HomeLogin';
 import { Route, Routes } from "react-router-dom"
 import RegisDor from './components/RegisDor';
+import NotiPayment from './components/์NotiPayment';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-sans">
       {/* <RegisDor></RegisDor> */}
-      <HomeLogin></HomeLogin>
+      <NotiPayment></NotiPayment>
     </div>
   );
 }
