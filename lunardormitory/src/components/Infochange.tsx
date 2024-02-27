@@ -19,7 +19,7 @@ function Infochange(){
     <div>
     <Nav></Nav>
     <div className="container mx-auto my-auto p-6 flex flex-col h-full w-full items-center">
-        <div className="w-3/5 bg-slate-200 rounded-xl mt-5">
+        <div className="w-3/5 bg-slate-200 rounded-xl mt-5 p-5">
         <h1 className="text-2xl font-bold mb-6">Room 101</h1>
         <div className="grid grid-cols-2 gap-4 mb-4 ml-10">
             <div>
@@ -54,7 +54,7 @@ function Infochange(){
       </div>
         <br/>
         <br/>
-      <div className="w-3/5 bg-slate-200 rounded-xl">
+      <div className="w-3/5 bg-slate-200 rounded-xl p-5">
         <h1 className="text-2xl font-bold mb-6">Room 101</h1>
         <div className="grid grid-cols-2 gap-4 mb-4 ml-10">
             <div>

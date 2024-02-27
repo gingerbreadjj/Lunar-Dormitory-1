@@ -8,6 +8,8 @@ import HomeLogin from './pages/HomeLogin';
 import Login from './pages/Login';
 import RegisDor from './pages/RegisDor';
 import Regis from './pages/Register';
+import Infochange from './components/Infochange';
+import Info1 from './components/Info1';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: "RegisDor",
     element: <RegisDor/>
+  },
+  {
+    path: "InfoChange",
+    element: <Infochange/>
+  },
+  {
+    path: "Info1",
+    element: <Info1/>
   },
 ])
 
