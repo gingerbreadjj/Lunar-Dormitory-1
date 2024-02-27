@@ -1,16 +1,16 @@
 import React from 'react'
-import Nav from './Nav'
+import Nav from '../components/Nav'
 
 function HomeLogin() {
   return (
-    <div style={{backgroundColor: '#E9E6E1'}}>
+    <div>
         <Nav></Nav>
         <div className='mt-20 mx-20'>
             <h1 className='text-3xl font-medium tracking-wide mb-5'>สวัสดีคุณ อนัญพร</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec</p>
         </div>
-        <div className='flex flex-col items-center'>
-            <div className='mx-20 mt-10'>
+        <div className='flex flex-row items-center mt-20 mx-20'>
+            <div>
                 <h1 className='text-3xl font-medium tracking-wide'>หอพัก</h1>
                 <p className='mt-5 mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec</p>
             </div>
@@ -48,8 +48,6 @@ function HomeLogin() {
                     </div>
                 </button>
             </div>
-    
-
         </div>
     </div>
   )
